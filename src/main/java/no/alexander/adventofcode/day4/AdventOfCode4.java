@@ -94,8 +94,6 @@ public class AdventOfCode4 {
                 }
             }
 
-            LOG.info("Drew - " + value + ", remaining boards - " + tmp.size());
-
             if (boards.size() == 1 && tmp.isEmpty()) {
                 score = boards.get(0).unmarkedSum() * value;
                 break;

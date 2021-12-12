@@ -46,7 +46,6 @@ public class AdventOfCode1 {
         var increased = 0;
         for (int i = 1; i < depths.size(); i++) {
             var current = depths.get(i);
-            LOG.info("Current " + current + ", previous " + previous);
             if (current > previous) {
                 increased++;
             }
